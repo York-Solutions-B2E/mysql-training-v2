@@ -1,0 +1,13 @@
+{
+  "name": "mysql-training",
+  "description": "mysql training resources",
+  "author": "Adam Street <astreet@yorksoultions.net>",
+  "scripts": {
+    "db": "docker compose -f docker-compose.yaml down && docker-compose -f docker-compose.yaml up",
+    "hide-keys": "node ./scripts/encrypt.mjs",
+    "show-keys": "node ./scripts/decrypt.mjs"
+  },
+  "devDependencies": {
+    "cryptify": "^4.1.2"
+  }
+}
