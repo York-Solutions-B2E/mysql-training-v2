@@ -14,6 +14,14 @@ management systems. They will gain an understanding of how MySQL works and how t
 of the course, participants will have a solid foundation in SQL and MySQL and will be able to apply their knowledge to
 real-world data management tasks.
 
+## System Requirements
+1. NodeJS + NPM 
+   - https://nodejs.org/en/download
+2. Docker Desktop
+   - https://www.docker.com/products/docker-desktop/
+3. DataGrip (this software is not free but they do provide a 30 day free trial)
+   - https://www.jetbrains.com/datagrip/
+
 ## Local Database Startup
 
 1. Open a terminal and `CD` into the project folder.
